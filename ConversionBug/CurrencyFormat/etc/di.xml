@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @author shivam <shivam.developer7@gmail.com>
+* @copyright Copyright (c) 2018 www.conversionbug.com
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Directory\Model\Currency" type="ConversionBug\CurrencyFormat\Model\Currency" />
+</config>
